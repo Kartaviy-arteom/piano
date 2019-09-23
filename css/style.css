@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Mansalva-Regular";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Mansalva-Regular.woff2") format("woff2"),
+    url("../fonts/Mansalva-Regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Mansalva-Regular", Tahoma, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+	user-select: none;
+	position: relative;
+	margin: 0 auto;
+  max-width: 90vw;
+  cursor: pointer;
+}
+
+#piano {
+  position: relative;
+  mix-blend-mode: soft-light;
+  z-index: 2;
+}
+
+.piano-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#piano path {
+  fill: white;
+}
+
+#r-1:hover path {
+  fill: cyan;
+}
+
+#r-2:hover {
+	fill: red;
+}
+
+#r-3:hover {
+  fill: darkorchid;
+}
+
+#r-4:hover {
+  fill: greenyellow;
+}
+
+#r-5:hover {
+  fill: orangered;
+}
+
+#r-6:hover {
+  fill: salmon;
+}
+
+#r-7:hover {
+  fill: olivedrab;
+}
+
+#r-8:hover {
+  fill: mediumturquoise;
+}
+
+#r-9:hover {
+  fill: lightblue;
+}
+
+#r-10:hover {
+  fill: ivory;
+}
+
+#piano path:active {
+  opacity: 0.5;
+}
