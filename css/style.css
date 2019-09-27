@@ -35,50 +35,71 @@ body {
   height: auto;
 }
 
-#piano path {
-  fill: white;
-}
 
-#r-1:hover path {
+#r-1 path {
   fill: cyan;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: 0.5s;
 }
 
-#r-2:hover {
+#r-2 {
 	fill: red;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: -0.7s;
 }
 
-#r-3:hover {
+#r-3 {
   fill: darkorchid;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: 1.1s;
 }
 
-#r-4:hover {
+#r-4 {
   fill: greenyellow;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: -1.3s;
 }
 
-#r-5:hover {
+#r-5 {
   fill: orangered;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: 1.7s;
 }
 
-#r-6:hover {
+#r-6 {
   fill: salmon;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: -1.9s;
 }
 
-#r-7:hover {
+#r-7 {
   fill: olivedrab;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: 2.3s;
 }
 
-#r-8:hover {
+#r-8 {
   fill: mediumturquoise;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: -2.9s;
 }
 
-#r-9:hover {
+#r-9 {
   fill: lightblue;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: 3.1s;
 }
 
-#r-10:hover {
+#r-10 {
   fill: ivory;
+  animation: play 3s infinite ease-in-out;
+  animation-delay: -4.7s;
 }
 
 #piano path:active {
   opacity: 0.5;
+}
+
+@keyframes play {
+  95% {fill: white}
 }
